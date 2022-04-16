@@ -1,6 +1,6 @@
 {
 	"name": "@wcpos/themes",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Themes for WooCommerce POS",
 	"author": "kilbot <paul@kilbot.com>",
 	"homepage": "https://github.com/wcpos/themes#readme",
@@ -19,6 +19,7 @@
 		"build-storybook": "build-storybook -o docs-build"
 	},
 	"dependencies": {
+		"@wcpos/utils": "*",
 		"lodash": "4.17.21",
 		"react": "17.0.2",
 		"react-dom": "17.0.2",

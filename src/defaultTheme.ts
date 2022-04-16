@@ -1,4 +1,4 @@
-import Platform from '@wcpos/core/src/lib/platform';
+import Platform from '@wcpos/utils/src/platform';
 import { math } from 'polished';
 import palette from './palettes/blue-grey.json';
 import normalizeText from './normalize-text';
