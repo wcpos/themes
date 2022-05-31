@@ -1,0 +1,29 @@
+{
+	"gray-50": "#fafbfc",
+	"gray-100": "#f1f5f9",
+	"gray-200": "#e2e8f0",
+	"gray-300": "#cbd5e1",
+	"gray-400": "#94a3b8",
+	"gray-500": "#64748b",
+	"gray-600": "#475569",
+	"gray-700": "#334155",
+	"gray-800": "#1e293b",
+	"gray-900": "#0f172a",
+	
+	"body-bg": "#f5f7fb",
+	
+	"blue": "#206bc4",
+	"azure": "#4299e1",
+	"indigo": "#4263eb",
+	"purple": "#ae3ec9",
+	"pink": "#d6336c",
+	"red": "#d63939",
+	"orange": "#f76707",
+	"yellow": "#f59f00",
+	"lime": "#74b816",
+	"green": "#2fb344",
+	"teal": "#0ca678",
+	"cyan": "#17a2b8",
+	"black": "#000000",
+	"white": "#ffffff"
+}

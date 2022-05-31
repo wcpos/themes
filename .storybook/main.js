@@ -6,13 +6,14 @@ module.exports = {
     builder: 'webpack5',
 	},
 	
-	stories: ['src/**/*.stories.tsx'],
+	stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
 
 	addons: [
 		'@storybook/preset-create-react-app',
 		'@storybook/addon-essentials',
 		'@storybook/addon-actions',
-		'@storybook/addon-react-native-web'
+		'@storybook/addon-react-native-web',
+		'@storybook/addon-docs'
 	],
 
 	framework: '@storybook/react',

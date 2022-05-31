@@ -1,6 +1,6 @@
 import { addDecorator, addParameters } from '@storybook/react';
 // import { DocsContainer, DocsPage } from '@storybook/addon-docs/blocks';
-import decorator from './decorator'
+// import decorator from './decorator'
 
 // import '@wcpos/core/src/fonts/fonts.css';
 
@@ -25,4 +25,4 @@ addParameters({
 	},
 });
 
-addDecorator(decorator);
+// addDecorator(decorator);
