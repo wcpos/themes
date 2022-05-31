@@ -14,9 +14,9 @@ export const colors = {
 	disabled: '#AFAFAF',
 
 	// greys
-	lightestGrey: '#E1E1E1',
-	lightGrey: '#AFAFAF',
-	grey: '#808080',
-	darkGrey: '#545454',
-	darkestGrey: '#2B2B2B',
+	lightestGrey: palette['blue-grey-050'],
+	lightGrey: palette['blue-grey-100'],
+	grey: palette['blue-grey-200'],
+	darkGrey: palette['blue-grey-300'],
+	darkestGrey: palette['blue-grey-400'],
 };

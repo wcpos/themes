@@ -13,11 +13,11 @@
     </a>
   </p>
   <p>
-    <a href="https://github.com/wcpos/components#-structure"><b>About</b></a>
+    <a href="https://github.com/wcpos/themes#-structure"><b>About</b></a>
     &ensp;&mdash;&ensp;
-    <a href="https://github.com/wcpos/components#-workflows"><b>Workflows</b></a>
+    <a href="https://github.com/wcpos/themes#-workflows"><b>Workflows</b></a>
     &ensp;&mdash;&ensp;
-    <a href="https://github.com/wcpos/components#-how-to-use-it"><b>How to use it</b></a>
+    <a href="https://github.com/wcpos/themes#-how-to-use-it"><b>How to use it</b></a>
   </p>
 </div>
 
@@ -25,7 +25,7 @@
 
 Themes for [WooCommerce POS](https://wcpos.com).
 
-[DEMO](https://wcpos.github.io/components)
+[DEMO](https://wcpos.github.io/themes)
 
 ## 👷 Workflows
 
