@@ -1,9 +1,20 @@
 import palette from './palettes/blue-grey.json';
 
+const greyscale = {
+	'grey-050': '#fafbfc',
+	'grey-100': '#f1f5f9',
+	'grey-200': '#e2e8f0',
+	'grey-300': '#cbd5e1',
+	'grey-400': '#94a3b8',
+	'grey-500': '#64748b',
+	'grey-600': '#475569',
+	'grey-700': '#334155',
+	'grey-800': '#1e293b',
+	'grey-900': '#0f172a',
+};
+
 export const colors = {
-	background: palette['blue-grey-050'],
-	border: palette['blue-grey-600'],
-	primary: palette['blue-grey-700'],
+	primary: palette['light-blue-vivid-700'],
 	secondary: palette['blue-grey-400'],
 	attention: palette['cyan-800'],
 	critical: palette['red-vivid-600'],
@@ -13,10 +24,23 @@ export const colors = {
 	inverse: 'rgba(256, 256, 256, 0.9)',
 	disabled: '#AFAFAF',
 
+	// text
+	text: palette['blue-grey-800'],
+	textMuted: palette['blue-grey-500'],
+
 	// greys
-	lightestGrey: palette['blue-grey-050'],
-	lightGrey: palette['blue-grey-100'],
-	grey: palette['blue-grey-200'],
-	darkGrey: palette['blue-grey-300'],
-	darkestGrey: palette['blue-grey-400'],
+	lightestGrey: greyscale['grey-050'],
+	lightGrey: greyscale['grey-100'],
+	grey: greyscale['grey-200'],
+	darkGrey: greyscale['grey-300'],
+	darkestGrey: greyscale['grey-400'],
+
+	// backgrounds
+	bodyBackground: palette['blue-grey-050'],
+	headerBackground: palette['blue-grey-800'],
+	inputBackground: '#FFFFFF',
+
+	// borders
+	border: palette['blue-grey-100'],
+	borderMuted: palette['blue-grey-050'],
 };
