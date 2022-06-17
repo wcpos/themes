@@ -6,8 +6,5 @@ import defaultTheme from './defaultTheme';
  * @param mode
  */
 export function switcher(name = 'default', mode = 'light') {
-	if (mode === 'dark') {
-		defaultTheme.PAGE_BACKGROUND_COLOR = 'black';
-	}
 	return defaultTheme;
 }

@@ -1,0 +1,26 @@
+import { Meta, Typeset } from '@storybook/addon-docs/blocks';
+import { font } from './defaultTheme.ts';
+
+<Meta title="Typography2" />
+
+export const SampleText =
+	'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+
+# Typography
+
+**Font:** sans-serif
+
+**Weights:** 400(regular), 600(bold), 300(light)
+
+<Typeset
+	fontSizes={[
+		Number(font.size.xSmall),
+		Number(font.size.small),
+		Number(font.size.medium),
+		Number(font.size.large),
+		Number(font.size.xLarge),
+	]}
+	fontWeight={font.weight.regular}
+	sampleText={SampleText}
+	fontFamily={font.family.regular}
+/>
