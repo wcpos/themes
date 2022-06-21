@@ -1,5 +1,5 @@
 import { Meta, Typeset } from '@storybook/addon-docs/blocks';
-import { font } from './defaultTheme.ts';
+import theme from './defaultTheme.ts';
 
 <Meta title="Typography2" />
 
@@ -14,13 +14,13 @@ export const SampleText =
 
 <Typeset
 	fontSizes={[
-		Number(font.size.xSmall),
-		Number(font.size.small),
-		Number(font.size.medium),
-		Number(font.size.large),
-		Number(font.size.xLarge),
+		Number(theme.font.size.xSmall),
+		Number(theme.font.size.small),
+		Number(theme.font.size.medium),
+		Number(theme.font.size.large),
+		Number(theme.font.size.xLarge),
 	]}
-	fontWeight={font.weight.regular}
+	fontWeight={theme.font.weight.regular}
 	sampleText={SampleText}
-	fontFamily={font.family.regular}
+	fontFamily={theme.font.family.regular}
 />
