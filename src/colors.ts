@@ -26,7 +26,7 @@ export const colors = {
 
 	// text
 	text: palette['blue-grey-800'],
-	textMuted: palette['blue-grey-500'],
+	textMuted: palette['blue-grey-600'],
 
 	// greys
 	lightestGrey: greyscale['grey-050'],
