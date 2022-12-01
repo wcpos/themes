@@ -1,4 +1,5 @@
-import defaults from 'lodash/defaults';
+// import defaults from 'lodash/defaults';
+
 import defaultTheme from './defaultTheme';
 
 interface ThemeSwitcherProps {
@@ -12,20 +13,20 @@ interface ThemeSwitcherProps {
 	 *   fontScale: number;
 	 * }
 	 */
-	dimensions?: import('react-native').ScaledSize;
+	// dimensions?: import('react-native').ScaledSize;
 }
 
 /**
  * Returns a theme
+ *
+ * @TODO - should dimensions be passed as a prop so we can change font-sizes, padding etc?
  */
 export function switcher(options?: ThemeSwitcherProps) {
-	const opts = defaults(options, {
-		name: 'default',
-		mode: 'light',
-		dimensions: { width: 800, height: 600, scale: 2, fontScale: 1 },
-	});
+	// const opts = defaults(options, {
+	// 	name: 'default',
+	// 	mode: 'light',
+	// 	// dimensions: { width: 800, height: 600, scale: 2, fontScale: 1 },
+	// });
 
-	// passing dimensions back through to the theme
-	// @TODO - maybe we only need a screenSize which can be over ridden by the user?
-	return { ...defaultTheme, _dimensions: opts.dimensions };
+	return defaultTheme;
 }

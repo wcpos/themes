@@ -1,7 +1,9 @@
+// import { math } from 'polished';
+
 import Platform from '@wcpos/utils/src/platform';
-import { math } from 'polished';
-import normalizeText from './normalize-text';
+
 import { colors } from './colors';
+import normalizeText from './normalize-text';
 
 const fonts = Platform.select({
 	android: {
