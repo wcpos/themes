@@ -70,7 +70,8 @@ const theme = {
 	iconSizes: {
 		xSmall: 10,
 		small: 12,
-		medium: 16,
+		normal: 16,
+		medium: 18,
 		large: 20,
 		xLarge: 30,
 	},
