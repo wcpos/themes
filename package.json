@@ -1,6 +1,6 @@
 {
 	"name": "@wcpos/themes",
-	"version": "1.0.34",
+	"version": "1.0.35",
 	"description": "Themes for WooCommerce POS",
 	"author": "kilbot <paul@kilbot.com>",
 	"homepage": "https://github.com/wcpos/themes#readme",
@@ -29,7 +29,7 @@
 		"styled-components": "5.3.6"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.20.7",
+		"@babel/core": "^7.20.12",
 		"@storybook/addon-actions": "6.5.15",
 		"@storybook/addon-controls": "6.5.15",
 		"@storybook/addon-docs": "6.5.15",
@@ -51,7 +51,7 @@
 		"@types/styled-components-react-native": "^5.2.0",
 		"@wcpos/eslint-config": "*",
 		"@wcpos/tsconfig": "*",
-		"babel-loader": "9.1.0",
+		"babel-loader": "9.1.2",
 		"babel-plugin-react-native-web": "0.18.10",
 		"jest": "^29.3.1",
 		"react-scripts": "5.0.1",

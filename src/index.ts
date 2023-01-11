@@ -7,6 +7,8 @@ export type SpacingTypes = keyof typeof defaultTheme.spacing;
 export type RoundingTypes = keyof typeof defaultTheme.rounding;
 export type ScreensTypes = keyof typeof defaultTheme.screens;
 export type IconSizesTypes = keyof typeof defaultTheme.iconSizes;
+export type FontSizeTypes = keyof typeof defaultTheme.font.size;
+export type FontWeightTypes = keyof typeof defaultTheme.font.weight;
 
 /**
  * Declare the default theme
