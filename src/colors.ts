@@ -15,7 +15,7 @@ const greyscale = {
 
 export const colors = {
 	primary: palette['light-blue-vivid-700'],
-	secondary: palette['blue-grey-400'],
+	secondary: palette['blue-grey-500'],
 	attention: palette['cyan-800'],
 	critical: palette['red-vivid-600'],
 	info: palette['light-blue-vivid-800'],
