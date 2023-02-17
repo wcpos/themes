@@ -19,7 +19,7 @@ interface ThemeSwitcherProps {
 /**
  * Returns a theme
  *
- * @TODO - should dimensions be passed as a prop so we can change font-sizes, padding etc?
+ * TODO - should dimensions be passed as a prop so we can change font-sizes, padding etc?
  */
 export function switcher(options?: ThemeSwitcherProps) {
 	// const opts = defaults(options, {
