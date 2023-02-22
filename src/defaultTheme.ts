@@ -29,8 +29,8 @@ const theme = {
 			normal: `${normalizeText(14)}px`,
 			medium: `${normalizeText(16)}px`,
 			large: `${normalizeText(18)}px`,
-			xLarge: `${normalizeText(20)}px`,
-			xxLarge: `${normalizeText(22)}px`,
+			xLarge: `${normalizeText(24)}px`,
+			xxLarge: `${normalizeText(30)}px`,
 		},
 		weight: {
 			thin: 100,
@@ -65,15 +65,17 @@ const theme = {
 	},
 
 	/**
-	 * Icon Sizes, different to text sizes
+	 * Icon Sizes
+	 * Best if it matches text size
 	 */
 	iconSizes: {
-		xSmall: 10,
-		small: 12,
-		normal: 16,
-		medium: 18,
-		large: 20,
-		xLarge: 30,
+		xSmall: normalizeText(10),
+		small: normalizeText(12),
+		normal: normalizeText(14),
+		medium: normalizeText(16),
+		large: normalizeText(18),
+		xLarge: normalizeText(24),
+		xxLarge: normalizeText(30),
 	},
 
 	/**

@@ -1,6 +1,6 @@
 {
 	"name": "@wcpos/themes",
-	"version": "1.0.39",
+	"version": "1.0.40",
 	"description": "Themes for WooCommerce POS",
 	"author": "kilbot <paul@kilbot.com>",
 	"homepage": "https://github.com/wcpos/themes#readme",
@@ -29,7 +29,7 @@
 		"styled-components": "5.3.6"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.20.12",
+		"@babel/core": "^7.21.0",
 		"@storybook/addon-actions": "6.5.16",
 		"@storybook/addon-controls": "6.5.16",
 		"@storybook/addon-docs": "6.5.16",
