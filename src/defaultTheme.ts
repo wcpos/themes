@@ -43,6 +43,7 @@ const theme = {
 			xBold: 800,
 			black: 900,
 		},
+		lineHeight: '1.2em',
 	},
 
 	/**
