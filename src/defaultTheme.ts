@@ -58,6 +58,7 @@ const theme = {
 		xLarge: 32,
 		large: 24,
 		medium: 16,
+		normal: 12,
 		small: 8,
 		xSmall: 4,
 		xxSmall: 2,
