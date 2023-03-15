@@ -43,6 +43,20 @@ const theme = {
 			xBold: 800,
 			black: 900,
 		},
+		/**
+		 * If line height matches font size, bits of characters get cut off (in web)
+		 * If I set lineHeight something line 1.2 or 1.2em, then native complains
+		 * It's confusing, but I'll just set the line height slightgly higher than the font size
+		 */
+		lineHeight: {
+			xSmall: `${normalizeText(12)}px`,
+			small: `${normalizeText(14)}px`,
+			normal: `${normalizeText(16)}px`,
+			medium: `${normalizeText(18)}px`,
+			large: `${normalizeText(20)}px`,
+			xLarge: `${normalizeText(26)}px`,
+			xxLarge: `${normalizeText(32)}px`,
+		},
 	},
 
 	/**
@@ -67,16 +81,16 @@ const theme = {
 
 	/**
 	 * Icon Sizes
-	 * Best if it matches text size
+	 * Best if it matches text line height
 	 */
 	iconSizes: {
-		xSmall: normalizeText(10),
-		small: normalizeText(12),
-		normal: normalizeText(14),
-		medium: normalizeText(16),
-		large: normalizeText(18),
-		xLarge: normalizeText(24),
-		xxLarge: normalizeText(30),
+		xSmall: `${normalizeText(12)}px`,
+		small: `${normalizeText(14)}px`,
+		normal: `${normalizeText(16)}px`,
+		medium: `${normalizeText(18)}px`,
+		large: `${normalizeText(20)}px`,
+		xLarge: `${normalizeText(26)}px`,
+		xxLarge: `${normalizeText(32)}px`,
 	},
 
 	/**
