@@ -2,7 +2,7 @@
 
 import Platform from '@wcpos/utils/src/platform';
 
-import { colors } from './colors';
+import { colors, inverseColors } from './colors';
 import normalizeText from './normalize-text';
 
 const fonts = Platform.select({
@@ -63,6 +63,7 @@ const theme = {
 	 * Colours
 	 */
 	colors,
+	inverseColors,
 
 	/**
 	 * Padding

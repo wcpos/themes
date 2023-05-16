@@ -44,3 +44,9 @@ export const colors = {
 	border: palette['blue-grey-100'],
 	borderMuted: palette['blue-grey-050'],
 };
+
+export const inverseColors = {
+	primary: 'inverse',
+	secondary: 'inverse',
+	lightGrey: 'textMuted',
+};
