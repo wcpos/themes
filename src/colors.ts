@@ -48,5 +48,6 @@ export const colors = {
 export const inverseColors = {
 	primary: 'inverse',
 	secondary: 'inverse',
+	darkestGrey: 'inverse',
 	lightGrey: 'textMuted',
 };
