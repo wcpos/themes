@@ -39,6 +39,7 @@ export const colors = {
 	bodyBackground: palette['blue-grey-050'],
 	headerBackground: palette['blue-grey-800'],
 	inputBackground: '#FFFFFF',
+	attentionBackground: palette['yellow-vivid-050'],
 
 	// borders
 	border: palette['blue-grey-100'],
