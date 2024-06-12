@@ -1,6 +1,6 @@
 {
   "name": "@wcpos/themes",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "description": "Themes for WooCommerce POS",
   "author": "kilbot <paul@kilbot.com>",
   "homepage": "https://github.com/wcpos/themes#readme",
@@ -23,7 +23,7 @@
     "lodash": "4.17.21",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-native": "0.74.1",
+    "react-native": "0.74.2",
     "react-native-web": "~0.19.12",
     "styled-components": "6.1.11",
     "stylis": "^4.3.2"
